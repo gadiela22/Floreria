@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú - Florería</title>
+    <title>Datos personales</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <div class="container">
         <div class="menu">
             <h4>MENU</h4>
             <a href="Catalogos.html" class="menu-button">Catalogos</a>
-            <a href="DatosPersonales.html" class="menu-button">DatosPersonales</a>
+            <a href="DatosPersonales.html" class="menu-button">Datos Personales</a>
             <a href="Mercancias.html" class="menu-button">Mercancias</a>
             <a href="#" class="menu-button">Corte Diario</a>
             <a href="#" class="menu-button">Lista de Faltantes</a>
@@ -29,21 +28,17 @@
             <a href="#" class="menu-button">Respaldo de BD</a>
             <a href="#" class="menu-button">Restauracion BD</a>
         </div>
-
-        
-       <div class="contenedor">
-          <main>
-            <section class="imagen">
-              <img src="imagenes/orchid.png" alt="Flores">
-            </section>
-            <section class="texto">
-              <h2>Flores para toda ocasión</h2>
-              <p>En nuestra floristería encontrarás una gran variedad de flores para todas las ocasiones. Desde arreglos florales para bodas y eventos especiales, hasta flores para regalar a un ser querido.</p>
-              <p>Contamos con un equipo de floristas profesionales que te ayudarán a encontrar el arreglo perfecto para tu evento.</p>
-            </section>
-          </main>
-
-    </div>
-</div>
-</body>
-</html>
+        <form action="/" method="post">
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="apellidoPaterno" placeholder="Apellido paterno">
+            <input type="text" name="apellidoMaterno" placeholder="Apellido materno">
+            <input type="email" name="correo" placeholder="Correo electrónico">
+            <input type="text" name="calle" placeholder="Calle">
+            <input type="number" name="numeroCasa" placeholder="Número de casa">
+            <input type="text" name="ciudad" placeholder="Ciudad">
+            <input type="text" name="estado" placeholder="Estado">
+            <input type="text" name="pais" placeholder="País">
+            <input type="tel" name="telefono" placeholder="Teléfono">
+            <input type="submit" value="Guardar">
+          </form>
+        </div>
